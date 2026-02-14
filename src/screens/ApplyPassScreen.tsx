@@ -20,8 +20,9 @@ export default function ApplyPassScreen({ navigation }: any) {
         if (!selectedRoute || !paymentMethod) return;
 
         setIsProcessing(true);
-        // Simulate payment processing
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        // Simulate Razorpay Gateway
+        Alert.alert('Razorpay Secure', 'Redirecting to payment gateway...');
+        await new Promise(resolve => setTimeout(resolve, 3000));
 
         const passInfo = PASS_PRICES[passType];
         const now = new Date();

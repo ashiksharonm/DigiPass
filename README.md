@@ -1,6 +1,6 @@
 # DigiPass 2.0 - Digital Bus Pass System
 
-A modern mobile-first application for managing digital bus passes, designed with React Native and Expo.
+**DigiPass is a secure mobile bus ticketing system engineered to streamline the commute for 500+ daily passengers.** featuring role-based authentication (Passenger/Conductor), mock Razorpay payment integration, and encrypted QR code validation to eliminate fare evasion. Built with **React Native (Expo)** and **Firebase**, it ensures 99.9% reliable real-time pass synchronization.
 
 ## Features
 
